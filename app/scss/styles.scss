@@ -125,6 +125,7 @@ p {
     input.trigger-ref:checked ~ #submenu-ref,
     input.trigger-ref:checked ~ #menu-references #minus-ref {
         display: flex;
+        flex-direction: column-reverse;
     }
     input.trigger-ref:checked ~ #menu-references #plus-ref {
         display: none
