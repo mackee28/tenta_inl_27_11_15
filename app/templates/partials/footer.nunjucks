@@ -1,0 +1,4 @@
+<!-- footer.nunjucks -->
+<footer>
+    <p>Hemsida av <a href="https://sv-se.facebook.com/Krevedo/" target="_blank" id="krevedo">KREVEDO</a></p>
+</footer>

@@ -1,0 +1,39 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8">
+    <!-- Set Device Proporties-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!-- Head HTML Proporties-->
+    <meta name="description" content="Bygg &amp;amp; Vent i Syd AB Hemsida">
+    <meta name="keywords" content="bygg, ventilation, vent, syd, åhus, kristianstad, skåne">
+    <meta name="author" content="Bygg &amp;amp; Vent i Syd AB">
+    <title>Bygg &amp; Vent i Syd AB</title>
+    <!-- Reset-->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- Style-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awsome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  </head>
+  <!-- BODY-->
+  <body>
+  <div id="logo_holder"><img src="images/logga.png" alt="Logga" id="nav_logga"></div>
+
+  <!-- You write code for this content block in another file -->
+  {% block content %} {% endblock %}
+
+  </body>
+
+
+</html>
+
