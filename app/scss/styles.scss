@@ -469,6 +469,9 @@ p {
         -webkit-flex: 2;
         -ms-flex: 2;
         flex: 2;
+        a:hover {
+            color:red;
+        }
         #follow {
             margin-bottom: 1em;
             margin-top: 1em;
